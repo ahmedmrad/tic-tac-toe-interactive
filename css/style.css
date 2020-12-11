@@ -1,0 +1,36 @@
+
+.opponent-selection{
+    margin-top:35px ;
+}
+.opponent-selection h2{
+    margin-bottom: 50px;
+}
+.button-choice{
+
+}
+
+.fullboard{
+    margin-top:35px;
+    display: none;
+}
+.board{
+    border: 1px solid black;
+    height: 85px;
+    margin: 0 auto;
+    width: 85px;
+}
+.row{
+    margin: 0 auto;
+    width: 300px;
+
+}
+
+#replay{
+    margin-top:45px ;
+    display:none;
+}
+
+.win{
+    background: #48ceff;
+    color: rgb(0, 94, 255);
+}
