@@ -5,20 +5,26 @@
 .opponent-selection h2{
     margin-bottom: 50px;
 }
-.button-choice{
-
-}
 
 .fullboard{
     margin-top:35px;
-    display: none;
+    visibility: hidden;
 }
 .board{
     border: 1px solid black;
-    height: 85px;
-    margin: 0 auto;
-    width: 85px;
+    transition: all .25s ease-in-out;
+    height: 100px;
+    width:100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 85px;
+    cursor: pointer;
 }
+.board:hover{
+    background: rgb(174, 244, 255);
+    color: rgb(108, 108, 108);
+}
+
 .row{
     margin: 0 auto;
     width: 300px;
@@ -27,7 +33,7 @@
 
 #replay{
     margin-top:45px ;
-    display:none;
+    visibility:hidden;
 }
 
 .win{

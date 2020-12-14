@@ -13,7 +13,7 @@
     <div class="container-md">
         <div class="jumbotron">
             <h1 class="display-4">Tic Tac Toe</h1>
-            <p class="lead">Welcome to tic tac toe, you are assigned X, enjoy the game!</p>
+            <p class="lead">Welcome to tic tac toe, enjoy the game!</p>
             <hr class="my-4">
              <span id="turn">Enjoy !</span>
         </div>
@@ -25,10 +25,10 @@
         <h2>Choose your symbol:</h2>
         <div class="row justify-content-md-center">
             <div class="col d-flex justify-content-center text-center ">
-                <button class="btn btn-primary btn-lg" id="choose-x" class="choose">X</button>
+                <button class="btn btn-primary btn-lg" id="choose-x" >X</button>
             </div>
             <div class="col d-flex justify-content-center text-center ">
-            <button class="btn btn-primary btn-lg" id="choose-o" class="choose">O</button>
+            <button class="btn btn-primary btn-lg" id="choose-o">O</button>
             </div>
         </div>
     </div>
@@ -36,42 +36,24 @@
     <!--Tic tac toe board-->
     <div class="container-fluid fullboard">
         <div class ="row justify-content-md-center">
-            <div class="col d-flex justify-content-center text-center board" style="border-left: 0; border-top: 0" id="box1">
-
-            </div>
-            <div class="col d-flex justify-content-center text-center board" style="border-top: 0" id="box2">
-
-            </div>
-            <div class="col d-flex justify-content-center text-center board" style="border-right: 0; border-top: 0" id="box3">
-
-            </div>
+            <div class="col d-flex justify-content-center text-center board" style="border-left: 0; border-top: 0" id="box1"></div>
+            <div class="col d-flex justify-content-center text-center board" style="border-top: 0" id="box2"></div>
+            <div class="col d-flex justify-content-center text-center board" style="border-right: 0; border-top: 0" id="box3"></div>
         </div>
         <div class="row justify-content-md-center">
-            <div class="col d-flex justify-content-center text-center board" style="border-left: 0" id="box4">
-
-            </div>
-            <div class="col d-flex justify-content-center text-center board" id="box5">
-
-            </div>
-            <div class="col d-flex justify-content-center text-center board" style="border-right: 0" id="box6">
-
-            </div>
+            <div class="col d-flex justify-content-center text-center board" style="border-left: 0" id="box4"></div>
+            <div class="col d-flex justify-content-center text-center board" id="box5"></div>
+            <div class="col d-flex justify-content-center text-center board" style="border-right: 0" id="box6"></div>
         </div>
         <div class="row justify-content-md-center">
-            <div class="col justify-content-center text-center board" style="border-left: 0; border-bottom: 0" id="box7">
-
-            </div>
-            <div class="col d-flex justify-content-center text-center board" style="border-bottom: 0" id="box8">
-
-            </div>
-            <div class="col d-flex justify-content-center text-center board" style="border-right: 0; border-bottom: 0" id="box9">
-
-            </div>
+            <div class="col justify-content-center text-center board" style="border-left: 0; border-bottom: 0" id="box7"></div>
+            <div class="col d-flex justify-content-center text-center board" style="border-bottom: 0" id="box8"></div>
+            <div class="col d-flex justify-content-center text-center board" style="border-right: 0; border-bottom: 0" id="box9"></div>
         </div>
     </div>
 
     <div class="container-md d-flex justify-content-center text-center">
-      <button class="btn btn-primary" id="replay">Play Again</button>
+      <button class="btn btn-success" id="replay">Play Again</button>
     </div>
     <!-- Javascript Bootstrap and script -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
