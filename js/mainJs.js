@@ -1,6 +1,5 @@
 var turn= 0
 var turnDisplay = document.querySelector('#turn')
-var victory = false
 var playerMarker
 var ennemyMarker
 var fullBoard = document.querySelector('.fullboard')
